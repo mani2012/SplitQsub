@@ -48,4 +48,9 @@ done
 ####  2. Support and Contact
 
 SplitQsub is developed by Solaiappan Manimaran.
+Department of Biostatistics
+School of Public Health
+801 Massachusetts Avenue 3rd Floor
+Boston, MA 02118
+
 
