@@ -5,6 +5,7 @@
 #$ -o @@QNAME@@Log
 #$ -j y
 #$ -m be
+#$ -M <put your email address here>
 #$ -P pathoscope
 #$ -pe single_node 8-8
 ### -l h=scc-cb4
