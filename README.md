@@ -1,4 +1,6 @@
-# SplitQsub
+SplitQsub
+==============
+
 Python program that given a set of commands in one file, will split it in to multiple qsub files, which can then be submitted to run all parallel at once
 
 #### 1. Running
@@ -48,9 +50,9 @@ done
 ####  2. Support and Contact
 
 SplitQsub is developed by Solaiappan Manimaran.
-Department of Biostatistics
-School of Public Health
-801 Massachusetts Avenue 3rd Floor
-Boston, MA 02118
 
+Department of Biostatistics  
+School of Public Health  
+801 Massachusetts Avenue 3rd Floor  
+Boston, MA 02118  
 
