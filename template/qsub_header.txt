@@ -1,0 +1,21 @@
+#!/bin/bash -l
+#
+#$ -cwd
+#$ -N @@QNAME@@
+#$ -o @@QNAME@@Log
+#$ -j y
+#$ -m be
+#$ -P pathoscope
+#$ -pe single_node 8-8
+### -l h=scc-cb4
+### -l h_rt=24:00:00
+
+echo "=========================================================="
+echo "Starting on       : $(date)"
+echo "Running on node   : $(hostname)"
+echo "Current job ID    : $JOB_ID"
+echo "Current job name  : $JOB_NAME"
+echo "Task index number : $TASK_ID"
+echo "=========================================================="
+
+module load python/2.7.5 
