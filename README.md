@@ -53,6 +53,7 @@ SplitQsub is developed by Solaiappan Manimaran.
 
 Department of Biostatistics  
 School of Public Health  
+Boston University  
 801 Massachusetts Avenue 3rd Floor  
 Boston, MA 02118  
 
