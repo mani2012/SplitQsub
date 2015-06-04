@@ -7,6 +7,7 @@ setup(
     install_requires=[],
     zip_safe=False,
     include_package_data=True,
+    scripts=['scripts/submit_qsub.sh'],
     entry_points={
         "console_scripts": [
             "splitqsub = splitqsub.__main__:main"
