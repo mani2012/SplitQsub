@@ -1,6 +1,8 @@
 SplitQsub
 ==============
 
+Splits a commands file into multiple qsub files.  
+
 Python program that given a set of commands in one file, will split it in to multiple qsub files, which can then be submitted to run all parallel at once
 
 #### 1. Running
@@ -9,7 +11,7 @@ Python program that given a set of commands in one file, will split it in to mul
     
 1.2 Change directory to where you downloaded the code 
 
-1.3 Simply run `python splitqsub/split_qsub.py -h` for top level usage information.
+1.3 Simply run `python splitqsub/split_qsub.py -h` for usage information.
 
 ```{r}
 usage: split_qsub.py [-h] [--version] -commandsFile CMD_FILE -headerFile HEADER_FILE 
