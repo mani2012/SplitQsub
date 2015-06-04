@@ -11,7 +11,11 @@ Python program that given a set of commands in one file, will split it in to mul
     
 1.2 Change directory to where you downloaded the code 
 
-1.3 Simply run `python splitqsub/split_qsub.py -h` for usage information.
+1.3 Simply run `python setup.py install` if you want to install globally or
+simply run `python setup.py install --user` if you want to install for the local user.
+
+1.4 For usage information, simply run `splitqsub -h` after installation as above or 
+simply run `python splitqsub/split_qsub.py -h` if you want to try without installing.
 
 ```{r}
 usage: split_qsub.py [-h] [--version] -commandsFile CMD_FILE -headerFile HEADER_FILE 
@@ -40,7 +44,7 @@ optional arguments:
   -outDir OUTDIR        Output Directory (Default=. (current directory))
 
 ```
-1.4 Script to submit all the generated qsub files. You can simply run `splitqsub/submit_qsub.sh`
+1.5 Script to submit all the generated qsub files. You can simply run `submit_qsub.sh` or `splitqsub/submit_qsub.sh`.
 
 ```{r}
 #!/bin/bash
