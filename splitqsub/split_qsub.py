@@ -75,5 +75,9 @@ parser.add_argument('-qsubFilePrefix', action='store', dest='qsub_prefix', requi
 parser.add_argument('-outDir', action='store', default='.', dest='outdir',
     help='Output Directory (Default=. (current directory))')
 
-inputArgs = parser.parse_args()
-splitQsub(inputArgs)
+def main():
+    inputArgs = parser.parse_args()
+    splitQsub(inputArgs)
+
+if __name__ == "__main__":
+    main()
