@@ -11,10 +11,12 @@ Python program that given a set of commands in one file, will split it in to mul
     
 1.2 Change directory to where you downloaded the code 
 
-1.3 Simply run `python setup.py install` if you want to install globally or
-simply run `python setup.py install --user` if you want to install for the local user.
+1.3 Simply run `python setup.py install` if you want to install globally or  
+simply run `python setup.py install --user` if you want to install for the local user.  
+If you have never installed another python module before or you do not have python setuptools  
+simply run `python install.py`, which will use ez_setup.py to bootstrap the right version of the package installer tooling for you.
 
-1.4 For usage information, simply run `splitqsub -h` after installation as above or 
+1.4 For usage information, simply run `splitqsub -h` after installation as above or  
 simply run `python splitqsub/split_qsub.py -h` if you want to try without installing.
 
 ```{r}
